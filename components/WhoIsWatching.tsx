@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { TouchableOpacity, StyleSheet, Dimensions, Image, StatusBar, LayoutRectangle, LayoutChangeEvent } from 'react-native';
-import { SafeAreaView, View } from 'react-native';
+import {  View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Animated, {
     useAnimatedStyle,
     withTiming,
